@@ -17,7 +17,7 @@ function App() {
             <Route path="home" element={<Dashboard />} />
             <Route path="Dashbouard" element={<DashboardFetch />} />
             <Route path="form" element={<Form />} />
-            <Route path="edit/:id" element={<EditForm />} />
+            <Route path="home/edit/:id" element={<EditForm />} />
           </Routes>
         </div>
       </div>
